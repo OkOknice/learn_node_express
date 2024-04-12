@@ -1,0 +1,25 @@
+{
+  "name": "learn_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "serve": "nodemon npm run start",
+    "start": "node --inspect main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.27",
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.1",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "mockjs": "^1.1.0",
+    "mysql2": "^3.9.2",
+    "sequelize": "^6.37.1",
+    "validate.js": "^0.13.1"
+  }
+}

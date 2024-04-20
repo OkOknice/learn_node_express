@@ -3,7 +3,7 @@ const secrect_key = 'qughhdkjashdkjhaoeuqwioyeiowqhdkjasgdjhsadkjwahkdhgg'
 
 const { getErrorResult }  = require('./handleResult')
 const { AUTH_CODE } = require('./constCode')
-const whiteList = ['/api/admin/login'] // 白名单
+const whiteList = ['/api/admin/login', '/api/static/upload'] // 白名单
 
 // 颁发 token
 exports.publishToken = (res, info = {},  maxTime = 1000) => {

@@ -5,6 +5,7 @@ require('./Admin')
 require('./Book')
 require('./Class')
 require('./Student')
+require('./File')
 
 Sequelize.sync(
   {
